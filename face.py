@@ -315,7 +315,7 @@ def TrackImages():
             #engine.runAndWait()
         cv2.imshow('Taking Attendance', im)
         #engine.say(bb)
-        engine.runAndWait()
+        #engine.runAndWait()
         if (cv2.waitKey(1) == ord('q')):
             #engine.say("You have pressed Q")
             #engine.runAndWait()
